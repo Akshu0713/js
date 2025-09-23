@@ -15,7 +15,7 @@ int x = 10; // x is a variable of type int
 String name = "John"; // name is a variable of type String
 JavaScript's dynamic typing allows for more flexibility but can lead to potential runtime errors if not handled carefully. Static typing, on the other hand, provides better type safety at the cost of some initial verbosity and strictness.
 
------------------------x--------------------------x----------------------------x------------------------x-------------------------x--------------------------x----------------------------------x
+-----------------------x--------------------------x----------------------------x------------------------x-----------------------x
 
 //datatypes are based on memory allocation
 Primitive datatypes->  call by value (string,number,boolean,null,undefined,BigInt,symbol) ->Stack memory
