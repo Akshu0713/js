@@ -24,8 +24,9 @@ const gameName = new String('akshat-ag-com') //invoke object
 // console.log(gameName.charAt(2));
 // console.log(gameName.indexOf('s'));
 
-const newString = gameName.substring(0, 4)
-console.log(newString);
+
+// const newString = gameName.substring(0, 4)
+// console.log(newString);
 
 // const anotherString = gameName.slice(-8, 4)
 // console.log(anotherString);
@@ -35,4 +36,23 @@ console.log(newString);
 //If either or both of the arguments are negative or NaN , the substring() method treats them as if they were 0 . 
 //slice() also treats NaN arguments as 0 , but when it is given negative values it counts backwards from the end of the string to find the indexes.
 
+const newStringOne = "   Akshat   "
+console.log(newStringOne);
+console.log(newStringOne.trim()); //trim remove the spaces
+//In JavaScript, trim() is a built-in method of String values that removes whitespace characters from both ends (the beginning and the end) of a string. 
+// It does not modify the original string but instead returns a new string with the leading and trailing whitespace removed. 
+//Returns a new string: The original string remains unchanged; trim() creates and returns a new string with the modifications.
 
+const url = "https://akshat.com/akshat%20gupta"
+
+console.log(url.replace('%20', '-')) 
+//replace() is a built-in method of the String object used to find and replace a specific substring or pattern within a string with a new substring
+//Key characteristics of replace(): Returns a new string, Accepts a function as a replacement
+console.log(url.includes('sundar'))
+console.log(url.includes('akshat'))
+//The includes() method in JavaScript is a powerful and widely used function that determines whether an array or a string contains a specified value. 
+// It returns a boolean value: true if the value is found, and false otherwise.
+console.log(gameName.split('-'));
+//The split() method in JavaScript is a built-in String method used to divide a string into an ordered list of substrings. 
+// These substrings are then placed into an array and returned.
+//Syntax: JavaScript = str.split(separator, limit);
